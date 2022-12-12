@@ -11,9 +11,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Crud Operation</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    </head>
-    <body>
-      <div class="container my-5">
+  </head>
+  <body>
+    <div class="container my-5">
         <form method="post">
           <div class="form-group">
             <label>Name</label>
@@ -23,14 +23,14 @@
     
     <div class="form-group">
       <label>Email</label>
-        <input type="text" class="form-control"
-        placeholder= "Enter ur email" name="email" autocomplete="off">
-        </div>
+      <input type="text" class="form-control"
+      placeholder= "Enter ur email" name="email" autocomplete="off">
+    </div>
     <div class="form-group">
       <label>Mobile</label>
       <input type="number" class="form-control"
       placeholder= "Enter ur number" name="mobile" autocomplete="off">
-      </div>
+    </div>
     <div class="form-group">
       <label>Password</label>
       <input type="password" class="form-control"
@@ -40,7 +40,7 @@
     
     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
     </form>
-    </div>
-    
+  </div>
+  
     </body>
     </html>

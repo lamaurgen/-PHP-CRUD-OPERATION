@@ -31,14 +31,15 @@ if(isset($_GET['id'])){
     };
     // Updaate
 
-    $id=$_GET['updateid'];
-    $sql = "SELECT * FROM `crud` where id=$id";
-    $result= mysqli_query($connection, $sql);
-    $row=mysqli_fetch_assoc($result);
-    $name= $row ['name'];
-    $email= $row ['email'];
-    $mobile= $row ['mobile'];
-    $password= $row ['password'];
+
+    // $id=$_GET['update'];
+    // $sql = "SELECT * FROM `crud` where id=$id";
+    // $result= mysqli_query($connection, $sql);
+    // $row= mysqli_fetch_assoc($result);
+    // $name= $row ['name'];
+    // $email= $row ['email'];
+    // $mobile= $row ['mobile'];
+    // $password= $row ['password'];
 
 
 

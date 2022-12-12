@@ -47,22 +47,31 @@ include 'conect.php';
             <td>'.$password.'</td>
             <td>
             <button class="btn btn-primary"><a href="update.php?updateid='.$id.'" class="text-light">Update</a></button>
-              <button class="btn btn-danger"><a href="action.php?id='.$id.'" class="text-light">Delete</a></button>
-
-            
-            </td>
-        
-
-</tr>';
+              <button  class="btn btn-danger"><a href="action.php?id='.$id.'" onclick="return myFunction()" class="text-light">Delete</a></button>
+              
+              </td>
+              
+              
+              </tr>';
          }
         }
-    ?>
+        ?>
   </tbody>
 </table>
      </table>
     <div class="container">
         <button class="btn btn-primary my-4"><a href="index.php" class="text-light">Add User</a> </button>
     </div>
+    
+    <script>
+function myFunction() {
+var r = confirm("OK to delete?");
+if (r == false) {
+   return false;
+} 
+
+}
+</script>   
     
 </body>
 </html>
